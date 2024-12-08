@@ -1,4 +1,6 @@
 # 1. **Simple calculator**
+- Create a program that adds, subtracts, multiplies and divides two numbers chosen by the user.
+***
 #### 1. I added the function `try` so that if it encounters any error, it disables the program to prevent problems for the user.
 #### 2. A variable named `Cal` was written. This variable contains `True` so that the loop runs all the time.
 #### 3. A variable named `enter` has been declared so that I can receive the calculation from it later.
@@ -8,13 +10,28 @@
 #### 7. I added `except` to `try`, then I called this command from within `Exception` and stored it in a variable so that I could display the error message. I adjusted the message by adding the letter `f` to include the variable inside the text.
 ***
 
-
 # 2. **Even and odd numbers testing program**
+- The user is asked to enter a number and determines whether the number is even or odd.
+***
 #### 1. I added the function ```try``` so that if it sees any error, it disables the program so as not to cause problems with the user.
 #### 2. I added a variable named ```open``` and gave it a value of ```True``` so that the decision loop keeps running and I have control over its closure.
 #### 3. I created a ```While``` decision loop to keep the program running 
 #### 4. I created a variable ```number``` so that I can compare after the entry with the following values ​​and added the function ```int``` so that it receives numbers only 
 #### 5. Create the variable ```math``` to calculate for me this equation ```numbers % 2``` so that I can later specify the entry as an even or odd number.
 #### 6. I created the condition ```if``` so that if the variable ```math``` is equal to ```0```, it prints to me that the number is even, and if it is equal to ```1``` then it is Individually, unless this or that is the case, the decision-making process stops 
+***
+
+# 3. **Program for guessing numbers**
+- The program generates a random number between 1 and 100, and the user must guess it, and the program gives hints.
+***
+#### 1. This function guesses between these two numbers.
+
+***
+# 4. **Letter and word counter**
+- The user is asked for a sentence and counts the number of letters and words.
+***
+#### 1. The ```len``` function displays the number of letters in a word
+#### 1. The ```split``` function. This function was added to count the words of the sentence, not the letters.
+
 ***
 
