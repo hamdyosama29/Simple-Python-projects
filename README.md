@@ -22,6 +22,3 @@
 - Simulates operations such as deposit, withdrawal and balance check.
 ***
 
-# 6. **ATM machine simulator**
-- Simulates operations such as deposit, withdrawal and balance check.
-***
