@@ -1,12 +1,13 @@
 # 1. **Simple calculator**
-#### 1. I added the function ```try``` so that if it sees any error, it disables the program so as not to cause problems with the user.
-#### 2. A variable named Cal was written. This variable contains True so that the loop runs all the time 
-#### 3. A variable named enter has been declared so that I can receive the calculation from it later 
-#### 4. I added the conditional expression if so that if a person wants to exit the program, he can type exit 
-#### 5. I added another condition because I noticed that when I ran the program without this condition, there was a problem with the division, which is that if I wrote it as an example of this ```10/2```, the output would appear with me in this form ```5.0` ``And I don't want it to appear like this. I solved it by adding this condition: pressing on ```/````, if it finds it, replaces it with this command, which is ```//```Because in this matter, the quotient of the division ```5``` appears to me like this
-#### 6. If nothing happens, it converts that text into a number through the ```eval``` function so that I can calculate it. 
-#### 7. I added ```except``` to ````try```, then I called this command from within ```Exception``` and stored a variable for it so that I could call it later to show me what It is the form by adjusting and adding the letter ```f``` so that I can add a variable inside the text
+#### 1. I added the function `try` so that if it encounters any error, it disables the program to prevent problems for the user.
+#### 2. A variable named `Cal` was written. This variable contains `True` so that the loop runs all the time.
+#### 3. A variable named `enter` has been declared so that I can receive the calculation from it later.
+#### 4. I added the conditional expression `if` so that if a person wants to exit the program, they can type `exit`.
+#### 5. I added another condition because I noticed that when I ran the program without this condition, there was a problem with the division. For example, if I wrote `10/2`, the output would appear as `5.0`. I don't want it to appear like this. I solved it by adding this condition: when pressing `/`, if it finds it, it replaces it with this command: `//`. This ensures the result of the division appears as `5`.
+#### 6. If nothing happens, it converts the input into a number using the `eval` function so that I can calculate it.
+#### 7. I added `except` to `try`, then I called this command from within `Exception` and stored it in a variable so that I could display the error message. I adjusted the message by adding the letter `f` to include the variable inside the text.
 ***
+
 
 # 2. **Even and odd numbers testing program**
 #### 1. I added the function ```try``` so that if it sees any error, it disables the program so as not to cause problems with the user.
